@@ -1,7 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
 :root {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
+    font-size: 62.5%;
 
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
@@ -24,6 +29,7 @@ a:hover {
 }
 
 body {
+    font-size: 1.6rem;
     margin: 0;
     display: flex;
     place-items: center;
