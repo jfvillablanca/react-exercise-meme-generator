@@ -13,6 +13,12 @@ export default function Meme() {
             );
     }, []);
 
+    const [meme, setMeme] = React.useState({
+        topText: "",
+        bottomText: "",
+        randomImage: "http://i.imgflip.com/1bij.jpg",
+    });
+
     return (
         <main>
             <div className='form'>
